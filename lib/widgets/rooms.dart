@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../config/palette.dart';
 import '../models/models.dart';
+import 'widgets.dart';
 
 class Rooms extends StatelessWidget {
   const Rooms({
@@ -27,11 +28,10 @@ class Rooms extends StatelessWidget {
               child: _CreateRoomButtom(),
             );
           }
-          return Container(
-            margin: EdgeInsets.all(2.0),
-            height: 20.0,
-            width: 20.0,
-            color: Colors.red,
+          final User user = onlineUsers[index - 1];
+          return Padding(
+            padding: EdgeInsets.symmetric(horizontal: 8.0),
+            child: ProfileAvatar(imageUrl: user.imageUrl, isActive: true),
           );
         },
       ),
