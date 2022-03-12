@@ -18,9 +18,9 @@ final List<User> onlineUsers = [
         'https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-1/217629058_1437529163278388_6582853752463307514_n.jpg?stp=dst-jpg_p240x240&_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=4TsBcWX5TxgAX8qcpAD&_nc_ht=scontent.fsgn5-13.fna&oh=00_AT9yJh6Ph9pDMxNR4y6l29BVcnz3emK_Jo_8zZMGdzaREQ&oe=622A307A',
   ),
   User(
-    name: 'Matthew Hinkle',
+    name: 'Ngọc Linh',
     imageUrl:
-        'https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/275116865_724015062308797_7230066797138538036_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=vyCiXIuCln8AX-B5p8a&_nc_ht=scontent.fsgn5-5.fna&oh=00_AT-egqAgGkjYgtsxJC3ccL0gbhMVNCLvWtjPUr28eAK5Ig&oe=6229724B',
+        'https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/269698359_684901479553489_5149257076085609733_n.jpg?stp=dst-jpg_p320x320&_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=52NnGtpB2ggAX-Vld5_&_nc_ht=scontent.fsgn5-10.fna&oh=00_AT_AR7blAw30zsFafRLiTS6EufpNvL71OOCQ3N5KNbT90w&oe=62322BF7',
   ),
   User(
     name: 'Amy Smith',
@@ -111,7 +111,8 @@ final List<Story> stories = [
   Story(
     user: onlineUsers[2],
     imageUrl:
-        'https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80',
+        'https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-6/275235789_724015048975465_8699058630872006609_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=FtlOCClp6tcAX9YhQBq&_nc_ht=scontent.fsgn5-11.fna&oh=00_AT-Bnc86ahsOa3LcltZr0NM9naxaC6kalS95u8s-Y7Pf8A&oe=6230D4CD',
+    isViewed: true,
   ),
   Story(
     user: onlineUsers[6],
