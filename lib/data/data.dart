@@ -1,7 +1,7 @@
 import 'package:facebook_app/models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Ngô Đạt',
   imageUrl:
       'https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/274339672_1120825032045145_8791893257737019255_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=-UIqHT5jiowAX-eoepx&_nc_ht=scontent.fsgn5-3.fna&oh=00_AT9OZxucPADxfFTI50zLzhJZjsHGY3LbPk14-596KICp9A&oe=622A844A',
 );
